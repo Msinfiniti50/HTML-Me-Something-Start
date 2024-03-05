@@ -1,12 +1,42 @@
 body {
     margin: 8px;
     display: block;
+    background-image: url('img/Frontdoorview.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #mainHeading {
-    color:aquamarine;
+    color: red;
     font-size: 24px;
 }
 .funParagraph{
-    color:burlywood;
+    color: green;
     font-size: 16px
+}
+p {
+    color: brown;
+    font-style: italic; 
+}
+.funDiv {
+    float: right;
+    width: 40%;
+    padding: 5px;
+}
+
+.funDiv::after {
+         content: "";
+         clear: both;
+         display: table;
+}
+
+img {
+    width: 40%;
+    height: 40;
+
+}
+img:hover {
+    transform: scale(1.4);
+}
+footer {
+    margin-top: auto;
 }
